@@ -30,6 +30,7 @@
  - Shades: #cf711f
  - Accents:
  - Grays:
+ #6f6f6f
  #555
  #333
  #ddd
@@ -153,7 +154,7 @@ GENERAL/REUSABLE COMPONENTS
   text-decoration: none;
   border-radius: 9px;
 
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -180,6 +181,34 @@ GENERAL/REUSABLE COMPONENTS
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: transparent;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }
