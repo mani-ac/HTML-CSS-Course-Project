@@ -11,6 +11,7 @@ HEADER
   padding: 0 4.8rem;
   background-color: #fdf2e9;
   height: 9.6rem;
+  position: relative;
 }
 
 .logo {
@@ -27,7 +28,7 @@ NAVIGATION
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -61,6 +62,30 @@ NAVIGATION
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/*
+=======================
+MOBILE NAV
+=======================
+*/
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
 }
 
 /*
@@ -128,7 +153,7 @@ HERO SECTION
 
 /*
 ==========================
-HOW IT WORKS SECTION
+FEATURED IN SECTION
 ==========================
 */
 

@@ -69,6 +69,8 @@ html {
   /* 1 rem = 10px | rem calculates size w.r.t root element's font size which is html | if fs of root elem not specified then rem calculates w.r.t browser fs*/
   font-size: 62.5%;
   /* 62.5% takes font size w.r.t user's browser font size | if browser fs is 16px then 16*0.625=10px*/
+
+  overflow-x: hidden;
 }
 
 body {
@@ -76,6 +78,8 @@ body {
   font-weight: 400;
   color: #555;
   line-height: 1;
+  overflow-x: hidden;
+
 }
 
 /*
@@ -114,9 +118,9 @@ GENERAL/REUSABLE COMPONENTS
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5--cols {
+/* .grid--5--cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
   align-items: center;
@@ -256,10 +260,10 @@ strong {
 
 .list-item {
   font-size: 1.8rem;
-
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
