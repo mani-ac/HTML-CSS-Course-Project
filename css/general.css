@@ -71,6 +71,7 @@ html {
   /* 62.5% takes font size w.r.t user's browser font size | if browser fs is 16px then 16*0.625=10px*/
 
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
