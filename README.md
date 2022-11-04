@@ -1,1 +1,1 @@
-# https://omnifood-sub.netlify.app
+[Demo](https://omnifood-sub.netlify.app)
